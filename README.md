@@ -4,7 +4,7 @@ Parser
 Parser in Java following this grammar:
 
 ****GRAMMAR****
-program -> stmt_list $$
+program -> stmt_list $$ \n
 stmt_list -> stmt stmt_list | empty
 stmt ->  id := expr | read id | write expr
 expr -> term term_tail
